@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Study Session Tracker</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+<h1>Study Session Tracker</h1>
+<p class="subtitle">Track your learning journey</p>
+<div class="input-section">
+<input type="text" id="subject" placeholder="subject (e.g. Java)"/>
+<input type="text" id="topic" placeholder="Topic (e.g. Arrays)"/>
+<input type="number" id="hours" placeholder="hours (e.g. 2)"/>
+<button id="addBtn" class="button">+ Add Sessions</button>
+</div>
+<div class="total">
+<span>Today's Study Time</span>
+<h2 id="totalHours">0 hours</h2>
+</div>
+<div id="sessionList" class="session-list"></div>
+</div>
+<script  src="script.js"></script>
+    </body>
+</html>
